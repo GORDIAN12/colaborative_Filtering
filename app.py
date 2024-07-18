@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 def fetch_poster(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=bf8c3ac91681d9efe4cd13800a77736b".format(movie_id)
+    url = "https://api.themoviedb.org/3/movie/{}?api_key=YOU_API_KEY".format(movie_id)
 
     data = requests.get(url)
     data = data.json()
